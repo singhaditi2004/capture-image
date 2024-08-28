@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#D68C8C"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capture_your_image"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/account"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveBtn"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="23dp"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@color/white"
+        android:text="Capture"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+</LinearLayout>
